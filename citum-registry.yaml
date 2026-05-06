@@ -1,0 +1,13 @@
+version: "1"
+styles:
+  - id: university-thesis
+    path: styles/university-thesis.yaml
+    kind: profile
+    description: "Standard institutional thesis style extending Chicago 18th (Notes)"
+    fields: [academic, institutional]
+
+  - id: university-journal
+    path: styles/university-journal.yaml
+    kind: journal
+    description: "The official University Journal style, based on the internal thesis profile"
+    fields: [academic, journal]

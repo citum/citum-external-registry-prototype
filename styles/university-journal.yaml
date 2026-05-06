@@ -1,0 +1,20 @@
+info:
+  title: "University Journal of Excellence"
+  id: "university-journal"
+  description: "Journal style extending the institutional thesis profile. Disables ibid and enforces stricter author limits."
+  authors:
+    - name: "Editorial Board"
+  license: "CC-BY-SA-4.0"
+
+extends: university-thesis
+
+citation:
+  # Journal preference: no ibid usage
+  ibid: ~
+
+options:
+  # Stricter author truncation for journal layout
+  contributors:
+    shorten:
+      min: 3
+      use-first: 1
