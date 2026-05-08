@@ -1,13 +1,14 @@
 version: "1"
+title: "Demo Protoype Style Registry"
 styles:
   - id: university-thesis
-    path: styles/university-thesis.yaml
+    url: https://raw.githubusercontent.com/citum/citum-external-registry-prototype/refs/heads/main/styles/university-thesis.yaml
     kind: profile
-    description: "Standard institutional thesis style extending Chicago 18th (Notes)"
+    description: "Standard institutional thesis style..."
     fields: [academic, institutional]
 
   - id: university-journal
-    path: styles/university-journal.yaml
+    url: https://raw.githubusercontent.com/citum/citum-external-registry-prototype/refs/heads/main/styles/university-journal.yaml
     kind: journal
-    description: "The official University Journal style, based on the internal thesis profile"
+    description: "The official University Journal style..."
     fields: [academic, journal]
