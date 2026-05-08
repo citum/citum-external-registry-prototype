@@ -1,18 +1,18 @@
 info:
   title: "University Thesis Style"
-  id: "university-thesis"
-  description: "Institutional base style for theses. Extends Chicago 18th Notes with mandatory full names and specific separators."
-  authors:
-    - name: "Institutional Repository Team"
-  license: "CC-BY-SA-4.0"
+  description: "Institutional base style for theses. Extends Chicago 18th Notes
+    with mandatory full names and a custom bibliography entry separator."
+  fields:
+    - humanities
+    - social-science
 
 extends: chicago-notes-18th
 
 options:
-  # Institutional requirement: always show full names in bibliography, no truncation
   contributors:
     shorten: ~
-  bibliography:
-    # Use a specific entry separator for thesis lists
+
+bibliography:
+  options:
     entry-suffix: ""
     separator: " --- "

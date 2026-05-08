@@ -1,20 +1,17 @@
-# yaml-language-server: $schema=https://docs.citum.org/schemas/style.json
 info:
   title: "University Journal of Excellence"
-  id: "university-journal"
-  description: "Journal style extending the institutional thesis profile. Disables ibid and enforces stricter author limits."
-  authors:
-    - name: "Editorial Board"
-  license: "CC-BY-SA-4.0"
+  description: "Journal style extending the institutional thesis profile.
+    Disables ibid and enforces stricter author limits."
+  fields:
+    - humanities
+    - social-science
 
 extends: university-thesis
 
 citation:
-  # Journal preference: no ibid usage
   ibid: ~
 
 options:
-  # Stricter author truncation for journal layout
   contributors:
     shorten:
       min: 3
